@@ -9,11 +9,17 @@ header{
     background-color: #C55394;
 }
 header div{
+    margin: 0;
     float: left;
+}
+header div > h1{
+    margin: 0;
+
 }
 header div >a{
     color: white;
     text-decoration: none;
+    font-family: 'courgette', cursive
 }
 header nav{
     float: right;
@@ -24,6 +30,9 @@ header ul > li{
 main{
     padding-top: 5%;
     background-image: url(../img/background.png);
+}
+main div h2{
+    color: #C55394;
 }
 main > div > p{
     margin: 0;
@@ -41,8 +50,26 @@ main > div > p{
 main > div.content{
     margin: 0 20%;
     border-radius: 25px;
-    background-color: pink; 
+    background-color: white;    
+}
+main > div.content p.text{
+    font size: small;
+}
+main .col-unicorn figure{
+    margin: 0;
+}
+main.col-unicorn figure figcaption{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+.row > .col-unicorn img{
+    width: 100%;
 
 }
-
+.titlepink{
+    color: #C55394;
+    font-size: 'courgette',cursive;
+}
    
