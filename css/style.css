@@ -22,5 +22,27 @@ header ul > li{
     display: inline;
 }
 main{
-    background-image: url(../assets/img/rainbow.png);
+    padding-top: 5%;
+    background-image: url(../img/background.png);
 }
+main > div > p{
+    margin: 0;
+    padding: 2% 0;
+    color: #C55394;
+    font-size: x-large;
+    text-align: center;
+    font-size: xx-large;
+    background-size: 20%;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/rainbow.png);
+    
+}
+main > div.content{
+    margin: 0 20%;
+    border-radius: 25px;
+    background-color: pink; 
+
+}
+
+   
